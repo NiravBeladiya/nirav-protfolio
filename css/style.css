@@ -1,0 +1,630 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Default-CSS*/
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"] {
+    cursor: pointer;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+html body {
+    margin: 0;
+}
+*::-moz-selection {
+    color: var(--white);
+    background: #000;
+}
+*::-webkit-selection {
+    color: var(--white);
+    background: #000;
+}
+*::-webkit-input-placeholder {
+    color: #5b6770;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #5b6770;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #5b6770;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #5b6770;
+    opacity: 1;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+a,
+span,
+div a:hover,
+div a:active,
+button {
+    text-decoration: none;
+}
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+ul,
+ul li,
+ol,
+li {
+    list-style: outside none none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body ul {
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+    outline: none;
+}
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+body .clearfix {
+    height: auto;
+}
+* {
+    outline: none !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*.clr:after,
+ul:after,
+.clearfix:after,
+li:after {
+    clear: both;
+    display: block;
+    content: "";
+}*/
+div input,
+div select,
+div textarea,
+div button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 140%;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+body h1 {
+    font-size: 24px;
+}
+body h2 {
+    font-size: 22px;
+}
+body h3 {
+    font-size: 18px;
+}
+body h4 {
+    font-size: 16px;
+}
+body h5 {
+    font-size: 12px;
+}
+body h6 {
+    font-size: 10px;
+}
+
+.section-gapping,
+section {
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div select {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div select option {
+    font-size: 13px;
+    color: #333;
+    padding: 2px 5px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+body p {
+    color: #5b6770;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 0 15px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0px;
+}
+body p:empty {
+    margin: 0;
+    line-height: 0;
+}
+body p:last-child {
+    margin-bottom: 0;
+}
+p strong {
+    font-weight: bold;
+}
+
+label em {
+    color: #ff0000;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.hidden {
+    display: none !important;
+}
+iframe {
+    display: block;
+}
+
+/*button*/
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+/* Buttons styles start */
+.btn,
+button {
+    display: inline-block;
+    border: none;
+    padding: 13px 26px;
+    margin: 0;
+    text-decoration: none;
+    color: var(--blue);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 120%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+.round-coner {
+    border-radius: 5px;
+}
+
+/* Button styles end */
+.container{
+    width: 100%;    
+    max-width: 1400px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/*hone-sec-css-start*/
+.home-sec {
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+    position: relative;
+    z-index: 1;
+    padding-top: 0;
+}
+
+.home-sec::before {
+    content: "";
+    bottom: -0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: block;
+    background-color: #dcdcdc;
+    transform: rotate(180deg);
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 0%, 0 100%, 0 0);
+}
+
+.service-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info li {
+    padding: 0 25px;
+}
+
+.service-info li a{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    transition: all 0.8s ease 0s;
+}
+
+.header-navmenu .service-info li a:hover{
+    color: #ff0000;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 50%;
+}
+
+.my-info h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.my-info p{
+    font-size: 30px;
+    color: #ff0000;
+    font-weight: 800;
+}
+
+.download-btn{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 800;
+    transition: all 0.5s ease 0s;
+}
+
+.download-btn:hover{
+    box-shadow: inset 0 0 10px #000;
+}
+
+.header-navmenu {
+    padding: 50px 0;
+}
+
+.banner-info{
+    display: flex;
+    justify-content: space-between;
+}
+/*home-sec-css-end*/
+
+/*about-sec-css-start*/
+.about-sec{
+    background-color: #dcdcdc;
+    padding-top: 0;
+}
+
+.about-sec::before {
+    content: "";
+    bottom: -1060px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: block;
+    background-color: #f8f8f8;
+    transform: rotate(180deg);
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 0%, 0 100%, 0 0);
+}
+
+.about-sec-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-img{
+    width: 100%;
+    max-width: 70%;
+}
+
+.about-img img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.social-icon {
+    transition: all 0.5s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.social-icon a i {
+    color: #000;
+    font-size: 35px;
+    padding: 0 15px;
+}
+
+.social-icon a:hover{
+   transform: scale(2);
+}
+.social-icon a i:hover{
+    color: #ff0000;
+}
+
+.about-img{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 40%;
+}
+
+.about-inner-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-info-text p{
+    font-size: 20px;
+    color: #000;
+}
+
+.my-info-text{  
+    padding: 0 30px;
+}
+
+.about-information-text {
+    width: 100%;
+    max-width: 100%;
+}
+/*about-sec-css-end*/
+/*services-sec-css-strat*/
+.services-sec{
+    background-color: #f8f8f8;
+}
+/*services-sec-css-end*/
+
+/*skil-sec-css-start*/
+.my-skill-sec {
+    background-color: #dcdcdc;
+    position: relative;
+    padding-top: 0;
+    top: -30px;
+}
+
+.my-skill-heding h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.my-skill-sec:before {
+    content: "";
+    bottom: -0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: block;
+    background-color: #f8f8f8;
+    transform: rotate(180deg);
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 0%, 0 100%, 0 0);
+}
+
+.protfolio-inner-img {
+    width: 100%;
+    max-width: 50%;
+}
+
+.skill-info{
+    display: flex;
+    align-items: center;
+}
+
+.about-right{
+    width: 100%;
+    max-width: 50%;
+    margin: 0 20px;
+}
+
+.skills-block ul li{
+    margin-bottom: 25px;
+}
+.skills-block ul li span {
+    color: #000;
+    border-radius: 5px;
+}
+.skills-block ul li:last-child{
+    margin-bottom: 0;
+}
+.progress-bar {
+    height: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.progress-bar > div > span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #000;
+}
+.progress-bar > label{
+    position: absolute;
+    top: -25px;
+    right: 0;
+    font-size: 14px;
+    color: #000;
+}
+/* skill-sec-css-end*/
+
+/*contact-sec-css-start*/
+.contact-sec{
+    background-color: #f8f8f8f8;
+    position: relative;
+    padding-top: 0;
+    top: -10px;
+}
+
+.contact-heding h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info{
+    background-color: #000;
+}
+
+
+.contact-form {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 21px 0px;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.contact-form form .field {
+    max-width: 50%;
+    padding: 0 10px;
+}
+
+.contact-form form .message {
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+
+.field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.field > textarea, .field > input {
+    border: none;
+    height: 45px;
+    padding: 15px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 21px 0px;
+    position: relative;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.field.message > textarea {
+    height: 200px;
+    padding: 15px;
+    resize: none;
+}
+
+.contact-form .field.btn-field {
+    margin-top: 10px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.or-follows {
+    padding-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or-follows li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.or-follows li a i {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.download-btn1 {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.5s ease 0s;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    display: block;
+}
+.download-btn1:hover{
+    box-shadow: inset 0 0 10px #000;
+}
+/*contact-sec-css-end*/

@@ -1,0 +1,266 @@
+@media(max-width:1400px){
+
+}
+
+@media(max-width:1200px){
+
+    .my-info h1 {
+        font-size: 45px;
+    }
+
+    .my-info p{
+        font-size: 25px;
+    }
+
+    .social-icon {
+        margin-top: 0;
+    }
+
+    .my-info-text p {
+        font-size: 16px;
+    
+}
+
+@media(max-width:992px){
+
+    .header-navmenu {
+        padding-bottom: 50px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .service-info li {
+        padding: 0 25px;
+    }
+
+    .banner-info {
+        display: inline-block;
+    }
+
+    .my-info {
+        display: inline;
+    }
+
+    .img-deta {
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:768px){
+
+
+    .service-info li a {
+        font-size: 16px;
+    }
+
+    .service-info li {
+        padding: 0 6px;
+    }
+
+    .my-info h1 {
+        font-size: 35px;
+    }
+
+    .my-info-text {
+        padding: 0px 15px;
+    }
+
+    .my-info p {
+        font-size: 22px;
+    }
+
+    .my-info-text p {
+        font-size: 16px;
+    }
+    .my-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-inner-info {
+        max-width: 100%;
+    }
+
+
+    .about-img {
+        max-width: 30%;
+    }
+
+    .download-btn {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .social-icon a {
+        margin-top: 30px;
+    }
+
+    .social-icon a i {
+        font-size: 24px;
+    }
+
+    .skill-info {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .img-deta {
+        margin-top: 30px;
+    }
+    .social-icon {
+        display: inline-block;
+    }
+    
+    .protfolio-inner-img {
+        max-width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+        max-width: 100%;
+        margin: 0; 
+        margin-top: 30px;
+    }
+
+    .banner-info {
+        display: inline-block;
+        width: 100%;
+    }
+    .field > textarea, .field > input {
+        font-size: 18px;
+    }
+
+    .field.message > textarea {
+        height: 100px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .home-sec {
+        padding-bottom: 80px;
+    }
+
+    .img-inner-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-inner-info{
+        display: inline-block ;
+    }
+
+    .about-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .service-info li a {
+        font-size: 11px;
+    }
+
+    .service-info li {
+        padding: 0 5px;
+    }
+
+    .about-sec-header h1{
+        font-size: 25px;
+    }
+
+    .my-info-text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .my-info-text {
+        margin: 0px 0px;
+        padding: 0;
+    }
+
+    .my-info h1 {
+        font-size: 25px;
+    }
+
+    .my-info p {
+        font-size: 16px;
+    }
+
+    .download-btn {
+        padding: 8px 8px;
+        font-size: 10px;
+    }
+
+    .social-icon a {
+        margin: 8px 0;
+    }
+
+    .social-icon a i {
+        font-size: 22px;
+    }
+
+    .download-btn1 {
+        padding: 5px 10px;
+    }
+
+    .field > textarea, .field > input {
+        font-size: 12px;
+    }
+
+    .field.message > textarea {
+        height: 70px;
+    }
+
+    .or-follows li a i {
+        font-size: 14px;
+    }
+
+    .or-follows {
+        padding-left: 8%;
+    }
+
+    .contact-heding h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .my-skill-heding h1 {
+        font-size: 25px;
+    }
+
+    .skills-block ul li {
+        margin-bottom: 10px;
+    }
+
+
+    .skills-block ul li span {
+        font-size: 12px;
+    }
+
+    .progress-bar {
+        height: 5px;
+    }
+
+    .my-skill-sec {
+        padding-bottom: 80px;
+    }
+
+    .progress-bar > label {
+        top: -18px;
+        font-size: 12px;
+    }
+}
+    
+}
