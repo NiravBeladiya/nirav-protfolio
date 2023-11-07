@@ -17,15 +17,15 @@
     }
 
     .my-info-text p {
-        font-size: 16px;
+        font-size: 18px;
     
 }
 
 @media(max-width:992px){
 
     .header-navmenu {
-        padding-bottom: 50px;
-        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -57,7 +57,7 @@
     }
 
     .service-info li {
-        padding: 0 6px;
+        padding: 0 15px;
     }
 
     .my-info h1 {
@@ -109,9 +109,6 @@
 
     .img-deta {
         margin-top: 30px;
-    }
-    .social-icon {
-        display: inline-block;
     }
     
     .protfolio-inner-img {
@@ -169,7 +166,7 @@
     }
 
     .service-info li a {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .service-info li {
@@ -180,8 +177,12 @@
         font-size: 25px;
     }
 
+    .Services-sec-heding h1 {
+        font-size: 25px;
+    }
+
     .my-info-text p {
-        font-size: 14px;
+        font-size: 10px;
         margin-top: 15px;
     }
 
