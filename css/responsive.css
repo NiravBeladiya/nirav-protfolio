@@ -18,14 +18,28 @@
 
     .my-info-text p {
         font-size: 18px;
+    }
+    
+
+    .skills-block ul li {
+        margin-bottom: 22px;
+    }
+
+    .progress-bar {
+        height: 6px;
+        margin-top: 3px;
+    }
     
 }
 
 @media(max-width:992px){
 
+    .header {
+        padding: 15px 0;
+    }
+
     .header-navmenu {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -47,6 +61,7 @@
         margin-top: 30px;
     }
 
+    
 }
 
 @media(max-width:768px){
@@ -54,6 +69,10 @@
 
     .service-info li a {
         font-size: 16px;
+    }
+
+    .services-inner-area ul li h2 {
+        font-size: 26px;
     }
 
     .service-info li {
@@ -73,7 +92,7 @@
     }
 
     .my-info-text p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .my-info {
         width: 100%;
@@ -134,6 +153,14 @@
         height: 100px;
     }
 
+    .services-inner-area ul li p {
+        font-size: 14px;
+    }
+
+    .services-inner-area ul li p {
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width:767px){
@@ -182,7 +209,7 @@
     }
 
     .my-info-text p {
-        font-size: 10px;
+        font-size: 11px;
         margin-top: 15px;
     }
 
@@ -262,6 +289,80 @@
         top: -18px;
         font-size: 12px;
     }
+    .services-inner-area ul {
+        display: block;
+    }
+
+    .services-inner-area ul li h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    .services-inner-area ul li p {
+        font-size: 12px;
+    }
+
+    .services-inner-area ul li {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .home-sec {
+        padding-bottom: 100px;
+        padding-top: 60px;
+        top: 1px;
+    }
+
+    .Services-sec {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .my-skill-sec {
+        padding-bottom: 70px;
+        padding-top: 50px;
+        top: 1px;
+    }
+
+    .about-sec {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        top: 1px;
+    }
+    .contact-sec {
+        padding-bottom: 70px;
+        padding-top: 50px;
+    }
+
+    .download-btn1 {
+        font-weight: 600;
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .download-btn1 a{
+        color: #000;
+    }
+
+    .scroll-top {
+        bottom: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-top i {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 2;
+    }
+
+    .services-inner-area ul li:first-child{
+        margin-top: 0;
+    }
+
 }
     
-}

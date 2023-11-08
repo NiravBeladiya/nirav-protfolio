@@ -288,11 +288,12 @@ button {
 
 /*hone-sec-css-start*/
 .home-sec {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     background-color: #f8f8f8;
     position: relative;
+    padding-top: 100px;
     z-index: 1;
-    top: -1px;
+    top: 1px;
 }
 
 .home-sec::before {
@@ -381,7 +382,7 @@ button {
     background-color: #dcdcdc;
     padding-top: 0px;
     position: relative;
-    top: -2px;
+    top: 1px;
     z-index: 1;
 }
 .about-sec::before {
@@ -435,10 +436,13 @@ button {
     max-width: 40%;
 }
 
-.about-inner-info{
+.about-inner-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 0 15px #8c8c8c;
+    padding: 20px 20px;
+    border-radius: 5px;
 }
 
 .my-info-text p{
@@ -485,6 +489,40 @@ button {
     text-align: center;
 }
 
+.services-inner-area ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 15px #8c8c8c;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.about-info-box-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.services-inner-area ul li {
+    margin: 0 10px;
+}
+
+.services-inner-area ul li h2{
+    color: #000;
+    font-size: 28px;
+}
+
+.services-inner-area ul li p{
+    color: #000;
+    font-size: 16px;
+}
+
+.services-inner-area ul li {
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+}
+
 /*services-sec-css-end*/
 
 /*skil-sec-css-start*/
@@ -493,7 +531,7 @@ button {
     position: relative;
     padding-top: 0;
     z-index: 1;
-    top: 0;
+    top: 1px;
 }
 
 .my-skill-heding h1{
@@ -520,15 +558,24 @@ button {
     max-width: 50%;
 }
 
-.skill-info{
+.skill-info {
     display: flex;
     align-items: center;
+    box-shadow: 0 0 15px #8c8c8c;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 .about-right{
     width: 100%;
     max-width: 50%;
     margin: 0 20px;
+}
+
+.skills-block ul{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
 }
 
 .skills-block ul li{
@@ -587,7 +634,7 @@ button {
 
 .contact-form {
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 21px 0px;
+    box-shadow: 0px 0px 15px #8c8c8c;
     border-radius: 10px;
 }
 
@@ -663,15 +710,24 @@ button {
 .download-btn1 {
     padding: 10px 20px;
     border: 1px solid #000;
-    color: #000;
-    font-size: 18px;
     transition: all 0.5s ease 0s;
     background-color: #f8f8f8;
     border-radius: 6px;
     display: block;
+    line-height: 1;
 }
+
+.download-btn1 a{
+    font-size: 18px;
+    color: #000;
+}
+
 .download-btn1:hover{
     box-shadow: inset 0 0 10px #000;
+}
+
+.download-btn1 i {
+    color: #000;
 }
 /*contact-sec-css-end*/
 
