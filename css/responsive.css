@@ -357,8 +357,9 @@
         top: 2px;
     }
     .contact-sec {
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         padding-top: 50px;
+        top: 2px;
     }
 
     .download-btn1 {
@@ -424,6 +425,10 @@
 
     .footer-bottom p {
         font-size: 6px;
+    }
+
+    .footer-bottom {
+        margin-top: 20px;
     }
 
 }
