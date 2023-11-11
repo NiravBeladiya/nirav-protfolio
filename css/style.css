@@ -614,10 +614,7 @@ button {
 /*contact-sec-css-start*/
 .contact-sec{
     background-color: #f8f8f8f8;
-    position: relative;
     padding-top: 0;
-    top: 1px;
-    z-index: 1;
 }
 
 .contact-heding h1 {
@@ -730,6 +727,77 @@ button {
     color: #000;
 }
 /*contact-sec-css-end*/
+
+/*footer-css-strat*/
+.footer{
+    padding-top: 0;
+}
+.footer-top{
+    border-radius: 8px;
+    position: relative;
+    background-image: url('../images/footer-img.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+}
+
+.footer-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    box-shadow: 0 0 20px #8c8c8c;
+    border-radius: 8px;
+}
+
+.footer-info ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info ul li {
+    width: 33.33%;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.footer-info ul li i{
+    font-size: 30px;
+    color: #caa669;;
+    margin-bottom: 10px;
+}
+
+.footer-info ul li h5{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-info ul li p{
+    font-size: 20px;    
+    color: #fff;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #000;
+    font-size: 16px;
+}
+
+.footer-bottom p span{
+    color: #ff0000;
+    font-weight: 800;
+}
+/*footer-css-end*/
 
 /*scroll-btn css-start*/
 .scroll-top {

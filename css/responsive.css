@@ -153,12 +153,37 @@
         height: 100px;
     }
 
+    .contact-form form .field {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
     .services-inner-area ul li p {
         font-size: 14px;
     }
 
     .services-inner-area ul li p {
         font-size: 14px;
+    }
+
+    .contact-sec {
+        padding-bottom: 30px;
+    }
+
+    .footer-info ul li i {
+        font-size: 25px;
+    }
+
+    .footer-info ul li h5 {
+        font-size: 18px;
+    }
+
+    .footer-info ul li p {
+        font-size: 14px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
     }
 
 }
@@ -311,28 +336,30 @@
     .home-sec {
         padding-bottom: 100px;
         padding-top: 60px;
-        top: 1px;
+        top: 2px;
     }
 
     .Services-sec {
         padding-top: 50px;
         padding-bottom: 70px;
+        top: 2px;
     }
 
     .my-skill-sec {
         padding-bottom: 70px;
         padding-top: 50px;
-        top: 1px;
+        top: 2px;
     }
 
     .about-sec {
         padding-top: 40px;
         padding-bottom: 60px;
-        top: 1px;
+        top: 2px;
     }
     .contact-sec {
         padding-bottom: 70px;
         padding-top: 50px;
+        top: 2px;
     }
 
     .download-btn1 {
@@ -341,8 +368,18 @@
         padding: 8px 10px;
     }
 
-    .download-btn1 a{
+    .download-btn1 a {
         color: #000;
+        font-size: 12px;
+    }
+
+    .contact-form form .field {
+        max-width: 100%;
+    }
+
+    .contact-form form {
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 
     .scroll-top {
@@ -362,6 +399,32 @@
 
     .services-inner-area ul li:first-child{
         margin-top: 0;
+    }
+
+    .footer-info ul {
+        display: block;
+    }
+
+    .footer-info ul li {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .footer-info ul li i {
+        font-size: 22px;
+    }
+
+    .footer-info ul li h5 {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .footer-info ul li p {
+        font-size: 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 6px;
     }
 
 }
