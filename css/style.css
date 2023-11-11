@@ -274,7 +274,7 @@ button {
     transition: all 0.5s ease 0s;
     background-color: #dcdcdc;
     top: 0;
-    padding: 10px;
+    padding: 0;
     display: flex;
     align-items: center;
 }
@@ -283,7 +283,7 @@ button {
     background-color: #dcdcdc;
     transition: all 0.5s ease 0s;
     top: 0px;
-    padding: 10px;
+    padding: 0;
 }
 
 /*hone-sec-css-start*/
@@ -731,6 +731,7 @@ button {
 /*footer-css-strat*/
 .footer{
     padding-top: 0;
+    background-color: #f8f8f8f8;
 }
 .footer-top{
     border-radius: 8px;
@@ -750,7 +751,7 @@ button {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: -1;
     box-shadow: 0 0 20px #8c8c8c;
     border-radius: 8px;
@@ -786,6 +787,7 @@ button {
 .footer-bottom {
     padding: 20px 0;
     text-align: center;
+    background-color: #dcdcdc;
 }
 
 .footer-bottom p{
